@@ -36,11 +36,6 @@
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=u7-u7&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="u7's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7-u7&layout=compact&theme=tokyonight&hide_border=true" alt="u7's most used languages" />
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/u7-u7/u7-u7/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/u7-u7/u7-u7/output/github-contribution-grid-snake.svg" />
