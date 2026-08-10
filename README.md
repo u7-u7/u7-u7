@@ -1,9 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:7c3aed&height=180&section=header&text=Hi%20there%2C%20I%27m%20u7%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=03-born%20%C2%B7%20Class%20of%202026%20%C2%B7%20AI%20Engineering%20Explorer&descAlignY=55&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:7c3aed&height=180&section=header&text=Hi%20there%2C%20I%27m%20u7%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Class%20of%202026%20%C2%B7%20E-commerce%20Builder%20%C2%B7%20Vibe%20Coding&descAlignY=55&descSize=18" />
 
 <p align="center">
   <a href="https://github.com/u7-u7"><img src="https://img.shields.io/badge/Building-AI%20Engineering-7C3AED?style=for-the-badge&logo=githubactions&logoColor=white" alt="Building AI Engineering" /></a>
   <img src="https://img.shields.io/badge/Focus-Java%20%26%20Vue-2563EB?style=for-the-badge&logo=springboot&logoColor=white" alt="Java and Vue" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20collaboration-0EA5E9?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to collaboration" />
+  <a href="https://u7u7.top"><img src="https://img.shields.io/badge/Blog-u7u7.top-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="u7u7.top blog" /></a>
 </p>
 
 <p align="center">
@@ -12,10 +12,11 @@
 
 ## 👨‍💻 About Me
 
-我是 **悠柒（u7）**，03 年生、2026 届程序员。
+我是 **悠柒（u7）**，一名 26 届专升本选手，目前在电商业务一线打工。
 
 - 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**
 - ☕ 践行 **Vibe Coding**：把灵感快速变成可用原型，再打磨成可维护的工程作品
+- 📝 在 [u7u7.top](https://u7u7.top) 记录代码、思考与成长
 - 🧩 相信真正有价值的代码，应当能被别人用起来、维护下去
 
 ## 🚀 Featured Projects
