@@ -38,6 +38,10 @@
       <td>面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。</td>
     </tr>
     <tr>
+      <td>📄 <a href="https://github.com/u7-u7/developer-resume-writer">简历经历写作 Skill</a></td>
+      <td>理解 Git 或本地项目，生成可直接写入简历的项目简介、技术栈与项目产出。</td>
+    </tr>
+    <tr>
       <td>⚙️ <a href="https://github.com/u7-u7/dynamic-thread-pool">dynamic&#8209;thread&#8209;pool</a></td>
       <td>基于 Spring Boot 的动态线程池管理系统，支持运行时调参、监控、通知与 Redis 配置。</td>
     </tr>
