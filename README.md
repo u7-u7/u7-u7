@@ -10,14 +10,17 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=720&lines=%E6%8A%8A%E6%83%B3%E6%B3%95%E5%81%9A%E6%88%90%E5%8F%AF%E9%9D%A0%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%8C%E6%8A%8A%E9%87%8D%E5%A4%8D%E7%A0%94%E5%8F%91%E4%BA%A4%E7%BB%99%E6%99%BA%E8%83%BD%E4%BD%93%E3%80%82;Java+%2F+Spring+Boot+%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5;AI+Agents+%26+Skills+%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%8E%A2%E7%B4%A2;Build.+Learn.+Share." alt="Typing SVG" />
 </p>
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-我是 **悠柒（u7）**，一名 26 届专升本选手，目前在电商业务一线打工。
+## 我是 **悠柒（u7）**，一名 26 届专升本选手，目前在电商业务一线打工。
 
-- 📝 **个人博客 [u7u7.top](https://u7u7.top/)**：记录从零接触、学习编程，到走进工作的一路成长
-- 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**
-- ☕ 践行 **Vibe Coding**：把灵感快速变成可用原型，再打磨成可维护的工程作品
-- 🧩 相信真正有价值的代码，应当能被别人用起来、维护下去
+### 📝 **个人博客 [u7u7.top](https://u7u7.top/)**：记录从零接触、学习编程，到走进工作的一路成长
+
+### 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**
+
+### ☕ 践行 **Vibe Coding**：把灵感快速变成可用原型，再打磨成可维护的工程作品
+
+### 🧩 相信真正有价值的代码，应当能被别人用起来、维护下去
 
 ## 🚀 Featured Projects
 
