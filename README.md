@@ -20,24 +20,6 @@
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/u7-u7/dev-skills">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=dev-skills&theme=tokyonight&hide_border=true" alt="dev-skills" />
-  </a>
-  <a href="https://github.com/u7-u7/dynamic-thread-pool">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=dynamic-thread-pool&theme=tokyonight&hide_border=true" alt="dynamic-thread-pool" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/u7-u7/LnTravelCloud">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=LnTravelCloud&theme=tokyonight&hide_border=true" alt="LnTravelCloud" />
-  </a>
-  <a href="https://github.com/u7-u7/LnTravelVue">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=LnTravelVue&theme=tokyonight&hide_border=true" alt="LnTravelVue" />
-  </a>
-</p>
-
 | Project | What I built |
 | --- | --- |
 | 🧰 [dev-skills](https://github.com/u7-u7/dev-skills) | 面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。 |
