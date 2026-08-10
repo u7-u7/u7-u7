@@ -1,16 +1,70 @@
-## Hi there 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:7c3aed&height=180&section=header&text=Hi%20there%2C%20I%27m%20u7%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=03-born%20%C2%B7%20Class%20of%202026%20%C2%B7%20AI%20Engineering%20Explorer&descAlignY=55&descSize=18" />
 
-<!--
-**u7-u7/u7-u7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://github.com/u7-u7"><img src="https://img.shields.io/badge/Building-AI%20Engineering-7C3AED?style=for-the-badge&logo=githubactions&logoColor=white" alt="Building AI Engineering" /></a>
+  <img src="https://img.shields.io/badge/Focus-Java%20%26%20Vue-2563EB?style=for-the-badge&logo=springboot&logoColor=white" alt="Java and Vue" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20collaboration-0EA5E9?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to collaboration" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=720&lines=%E6%8A%8A%E6%83%B3%E6%B3%95%E5%81%9A%E6%88%90%E5%8F%AF%E9%9D%A0%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%8C%E6%8A%8A%E9%87%8D%E5%A4%8D%E7%A0%94%E5%8F%91%E4%BA%A4%E7%BB%99%E6%99%BA%E8%83%BD%E4%BD%93%E3%80%82;Java+%2F+Spring+Boot+%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5;AI+Agents+%26+Skills+%E5%B7%A5%E7%A8%8B%E5%8C%96%E6%8E%A2%E7%B4%A2;Build.+Learn.+Share." alt="Typing SVG" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me
+
+我是 **悠柒（u7）**，03 年生、2026 届程序员。
+
+- 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**
+- ☕ 专注 **Java / Spring Boot** 工程实践，也持续打磨 Vue、Python 与工具链能力
+- 🧩 相信真正有价值的代码，应当能被别人用起来、维护下去
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/u7-u7/dev-skills">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=dev-skills&theme=tokyonight&hide_border=true" alt="dev-skills" />
+  </a>
+  <a href="https://github.com/u7-u7/dynamic-thread-pool">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=dynamic-thread-pool&theme=tokyonight&hide_border=true" alt="dynamic-thread-pool" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/u7-u7/LnTravelCloud">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=LnTravelCloud&theme=tokyonight&hide_border=true" alt="LnTravelCloud" />
+  </a>
+  <a href="https://github.com/u7-u7/LnTravelVue">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=u7-u7&repo=LnTravelVue&theme=tokyonight&hide_border=true" alt="LnTravelVue" />
+  </a>
+</p>
+
+| Project | What I built |
+| --- | --- |
+| 🧰 [dev-skills](https://github.com/u7-u7/dev-skills) | 面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。 |
+| ⚙️ [dynamic-thread-pool](https://github.com/u7-u7/dynamic-thread-pool) | 基于 Spring Boot 的动态线程池管理系统，支持运行时调参、监控、通知与 Redis 配置。 |
+| 🗺️ [LnTravelCloud](https://github.com/u7-u7/LnTravelCloud) / [LnTravelVue](https://github.com/u7-u7/LnTravelVue) | 面向景区分析与可视化的微服务前后端实践。 |
+
+## 🛠️ Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,redis,mysql,maven,vue,vite,ts,python,docker,git,githubactions&perline=12" alt="Java, Spring Boot, Redis, MySQL, Maven, Vue, Vite, TypeScript, Python, Docker, Git and GitHub Actions" />
+</p>
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=u7-u7&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="u7's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7-u7&layout=compact&theme=tokyonight&hide_border=true" alt="u7's most used languages" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/u7-u7/u7-u7/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/u7-u7/u7-u7/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/u7-u7/u7-u7/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
+</picture>
+
+<p align="center">
+  <i>Keep building. Keep learning. Keep sharing.</i>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:1d4ed8,100:0f172a&height=110&section=footer" />
