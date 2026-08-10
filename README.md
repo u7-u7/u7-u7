@@ -21,12 +21,32 @@
 
 ## 🚀 Featured Projects
 
-| Project | What I built |
-| --- | --- |
-| 🧰 [dev-skills](https://github.com/u7-u7/dev-skills) | 面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。 |
-| ⚙️ [dynamic-thread-pool](https://github.com/u7-u7/dynamic-thread-pool) | 基于 Spring Boot 的动态线程池管理系统，支持运行时调参、监控、通知与 Redis 配置。 |
-| 🗺️ [旅游云后端](https://github.com/u7-u7/LnTravelCloud) | 面向景区分析与可视化的微服务后端实践。 |
-| 🎨 [旅游云前端](https://github.com/u7-u7/LnTravelVue) | 配套的 Vue 数据可视化前端。 |
+<table>
+  <thead>
+    <tr>
+      <th width="34%">Project</th>
+      <th>What I built</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🧰 <a href="https://github.com/u7-u7/dev-skills">dev-skills</a></td>
+      <td>面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。</td>
+    </tr>
+    <tr>
+      <td>⚙️ <a href="https://github.com/u7-u7/dynamic-thread-pool">dynamic&#8209;thread&#8209;pool</a></td>
+      <td>基于 Spring Boot 的动态线程池管理系统，支持运行时调参、监控、通知与 Redis 配置。</td>
+    </tr>
+    <tr>
+      <td>🗺️ <a href="https://github.com/u7-u7/LnTravelCloud">旅游云后端</a></td>
+      <td>面向景区分析与可视化的微服务后端实践。</td>
+    </tr>
+    <tr>
+      <td>🎨 <a href="https://github.com/u7-u7/LnTravelVue">旅游云前端</a></td>
+      <td>配套的 Vue 数据可视化前端。</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🛠️ Tech Stack
 
