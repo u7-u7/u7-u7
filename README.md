@@ -37,6 +37,10 @@
       <td><a href="https://u7u7.top">u7u7.top</a> 的站点源码，记录从零学习编程到走进工作的成长。</td>
     </tr>
     <tr>
+      <td>💻 <a href="https://github.com/wangjicheng2004/dsh-desktop.git">DeepSeek Harness客户端</a></td>
+      <td> 封装了DeepSeek Harness，支持一键换肤和skill管理的客户端功能</td>
+    </tr>
+    <tr>
       <td>🧰 <a href="https://github.com/u7-u7/dev-skills">dev-skills</a></td>
       <td>面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。</td>
     </tr>
