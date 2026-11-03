@@ -69,19 +69,6 @@
   </tbody>
 </table>
 
-## 📊 Open Source Dashboard
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-simple-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/contributions/dashboard-simple-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-simple-dark.svg" />
-  <img width="100%" src="./assets/contributions/dashboard-simple-light.svg" alt="u7 的公开贡献看板：已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
-</picture>
-
-<p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic+-user%3Au7-u7+is%3Amerged">已合并 PR ↗</a>
-</p>
-
 ## 🛠️ Tech Stack
 
 <p>
