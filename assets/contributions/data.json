@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-03T12:56:58.002Z",
+  "updatedAt": "2026-11-03T13:06:51.089Z",
   "prs": {
-    "total": 123,
+    "total": 124,
     "merged": 36,
-    "open": 81,
+    "open": 82,
     "closed": 6,
     "draft": 53,
     "projects": 15,
     "repositories": [
       {
         "name": "Tencent-Hunyuan/Hy-Memory",
-        "total": 46,
+        "total": 47,
         "merged": 20,
-        "open": 22,
+        "open": 23,
         "closed": 4,
         "draft": 11
       },
@@ -133,9 +133,9 @@
     ]
   },
   "commits": {
-    "total": 350,
+    "total": 353,
     "year": 2026,
-    "yearTotal": 69,
+    "yearTotal": 72,
     "since": "2022-10",
     "months": [
       {
@@ -336,7 +336,7 @@
       },
       {
         "month": "2026-11",
-        "count": 3
+        "count": 6
       }
     ]
   }
