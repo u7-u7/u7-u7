@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "login": "u7-u7",
+  "updatedAt": "2026-11-03T12:54:10.570Z",
+  "prs": {
+    "total": 123,
+    "merged": 36,
+    "open": 81,
+    "closed": 6,
+    "draft": 53,
+    "projects": 15,
+    "repositories": [
+      {
+        "name": "Tencent-Hunyuan/Hy-Memory",
+        "total": 46,
+        "merged": 20,
+        "open": 22,
+        "closed": 4,
+        "draft": 11
+      },
+      {
+        "name": "Tencent/WeKnora",
+        "total": 32,
+        "merged": 7,
+        "open": 24,
+        "closed": 1,
+        "draft": 18
+      },
+      {
+        "name": "Tencent/BrowserSkill",
+        "total": 9,
+        "merged": 4,
+        "open": 5,
+        "closed": 0,
+        "draft": 5
+      },
+      {
+        "name": "volcengine/OpenViking",
+        "total": 9,
+        "merged": 0,
+        "open": 9,
+        "closed": 0,
+        "draft": 9
+      },
+      {
+        "name": "modelscope/ms-agent",
+        "total": 7,
+        "merged": 0,
+        "open": 7,
+        "closed": 0,
+        "draft": 6
+      },
+      {
+        "name": "wangjicheng2004/dsh-desktop",
+        "total": 4,
+        "merged": 3,
+        "open": 0,
+        "closed": 1,
+        "draft": 0
+      },
+      {
+        "name": "bytedance/GRN",
+        "total": 3,
+        "merged": 0,
+        "open": 3,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "deepseek-ai/DeepInfer",
+        "total": 3,
+        "merged": 0,
+        "open": 3,
+        "closed": 0,
+        "draft": 2
+      },
+      {
+        "name": "bytedance/trae-agent",
+        "total": 2,
+        "merged": 0,
+        "open": 2,
+        "closed": 0,
+        "draft": 2
+      },
+      {
+        "name": "deepseek-ai/TileKernels",
+        "total": 2,
+        "merged": 0,
+        "open": 2,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "MoonshotAI/MoonEP",
+        "total": 2,
+        "merged": 0,
+        "open": 2,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "alibaba/open-code-review",
+        "total": 1,
+        "merged": 0,
+        "open": 1,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "bytedance/deer-flow",
+        "total": 1,
+        "merged": 0,
+        "open": 1,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "loks666/get_jobs",
+        "total": 1,
+        "merged": 1,
+        "open": 0,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "MoonshotAI/FlashKDA",
+        "total": 1,
+        "merged": 1,
+        "open": 0,
+        "closed": 0,
+        "draft": 0
+      }
+    ]
+  },
+  "commits": {
+    "total": 349,
+    "year": 2026,
+    "yearTotal": 68,
+    "since": "2022-10",
+    "months": [
+      {
+        "month": "2022-10",
+        "count": 21
+      },
+      {
+        "month": "2022-11",
+        "count": 48
+      },
+      {
+        "month": "2022-12",
+        "count": 0
+      },
+      {
+        "month": "2023-01",
+        "count": 0
+      },
+      {
+        "month": "2023-02",
+        "count": 0
+      },
+      {
+        "month": "2023-03",
+        "count": 48
+      },
+      {
+        "month": "2023-04",
+        "count": 16
+      },
+      {
+        "month": "2023-05",
+        "count": 21
+      },
+      {
+        "month": "2023-06",
+        "count": 3
+      },
+      {
+        "month": "2023-07",
+        "count": 3
+      },
+      {
+        "month": "2023-08",
+        "count": 0
+      },
+      {
+        "month": "2023-09",
+        "count": 0
+      },
+      {
+        "month": "2023-10",
+        "count": 2
+      },
+      {
+        "month": "2023-11",
+        "count": 0
+      },
+      {
+        "month": "2023-12",
+        "count": 3
+      },
+      {
+        "month": "2024-01",
+        "count": 0
+      },
+      {
+        "month": "2024-02",
+        "count": 0
+      },
+      {
+        "month": "2024-03",
+        "count": 0
+      },
+      {
+        "month": "2024-04",
+        "count": 0
+      },
+      {
+        "month": "2024-05",
+        "count": 3
+      },
+      {
+        "month": "2024-06",
+        "count": 8
+      },
+      {
+        "month": "2024-07",
+        "count": 6
+      },
+      {
+        "month": "2024-08",
+        "count": 0
+      },
+      {
+        "month": "2024-09",
+        "count": 0
+      },
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 0
+      },
+      {
+        "month": "2025-06",
+        "count": 1
+      },
+      {
+        "month": "2025-07",
+        "count": 11
+      },
+      {
+        "month": "2025-08",
+        "count": 34
+      },
+      {
+        "month": "2025-09",
+        "count": 31
+      },
+      {
+        "month": "2025-10",
+        "count": 7
+      },
+      {
+        "month": "2025-11",
+        "count": 8
+      },
+      {
+        "month": "2025-12",
+        "count": 7
+      },
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 0
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 0
+      },
+      {
+        "month": "2026-07",
+        "count": 0
+      },
+      {
+        "month": "2026-08",
+        "count": 30
+      },
+      {
+        "month": "2026-09",
+        "count": 5
+      },
+      {
+        "month": "2026-10",
+        "count": 31
+      },
+      {
+        "month": "2026-11",
+        "count": 2
+      }
+    ]
+  }
+}

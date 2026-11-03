@@ -65,37 +65,20 @@
   </tbody>
 </table>
 
-## 🤝 Open Source Contributions
+## 📊 Open Source Dashboard
 
-近期围绕 Agent 记忆、RAG 检索、浏览器工具与工程可靠性参与上游项目，下面是一些已合并的贡献。
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/contributions/dashboard-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-dark.svg" />
+  <img width="100%" src="./assets/contributions/dashboard-light.svg" alt="u7 的公开贡献看板：公开 commit 总数、对外 PR、已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
+</picture>
 
-| Project | 我的贡献 | 代表 PR |
-| --- | --- | --- |
-| 🧠 [Tencent-Hunyuan / Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | 修复跨线程上下文传递、迁移日志写入顺序与多 Agent 检索隔离等问题。 | [#199](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/199) · [#203](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/203) · [#81](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/81) · ✅ Merged |
-| 📚 [Tencent / WeKnora](https://github.com/Tencent/WeKnora) | 增加知识检索同父块 Top-K 聚合选项，修复飞书同步进度与空全文检索查询。 | [#4740](https://github.com/Tencent/WeKnora/pull/4740) · [#4736](https://github.com/Tencent/WeKnora/pull/4736) · [#4819](https://github.com/Tencent/WeKnora/pull/4819) · ✅ Merged |
-| 🌐 [Tencent / BrowserSkill](https://github.com/Tencent/BrowserSkill) | 适配 DSH v4 消息来源格式，完善扩展类型生成与评测工具兼容性。 | [#539](https://github.com/Tencent/BrowserSkill/pull/539) · [#499](https://github.com/Tencent/BrowserSkill/pull/499) · [#504](https://github.com/Tencent/BrowserSkill/pull/504) · ✅ Merged |
-| ⚡ [MoonshotAI / FlashKDA](https://github.com/MoonshotAI/FlashKDA) | 为基准测试增加可配置随机种子，让同一用例的输入可复现。 | [#38](https://github.com/MoonshotAI/FlashKDA/pull/38) · ✅ Merged |
-
-<details>
-  <summary>🔎 更多正在参与的项目与 PR</summary>
-
-以下 PR 尚未合并；Open 为已提交，Draft 为草稿，具体进度以链接中的实时状态为准。
-
-| Project | 提交内容 | 代表 PR / 状态 |
-| --- | --- | --- |
-| [volcengine / OpenViking](https://github.com/volcengine/OpenViking) | 改善文档解析效率，修复 Studio 编辑状态与输入交互问题。 | [#6935](https://github.com/volcengine/OpenViking/pull/6935) · [#6820](https://github.com/volcengine/OpenViking/pull/6820) · 📝 Draft |
-| [modelscope / ms-agent](https://github.com/modelscope/ms-agent) | 修复守护线程池退出阻塞，并改进流式任务清理。 | [#1029](https://github.com/modelscope/ms-agent/pull/1029) · 🟢 Open；[#1042](https://github.com/modelscope/ms-agent/pull/1042) · 📝 Draft |
-| [bytedance / trae-agent](https://github.com/bytedance/trae-agent) | 修复 Anthropic 输出限制配置与非 UTF-8 命令输出导致的会话中断。 | [#584](https://github.com/bytedance/trae-agent/pull/584) · [#583](https://github.com/bytedance/trae-agent/pull/583) · 📝 Draft |
-| [deepseek-ai / DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 校验加速器配置，补齐源码发行包构建输入。 | [#237](https://github.com/deepseek-ai/DeepInfer/pull/237) · 🟢 Open；[#245](https://github.com/deepseek-ai/DeepInfer/pull/245) · 📝 Draft |
-| [deepseek-ai / TileKernels](https://github.com/deepseek-ai/TileKernels) | 修复测试分片路径与 GPU 显存 profile 默认目录处理。 | [#44](https://github.com/deepseek-ai/TileKernels/pull/44) · [#45](https://github.com/deepseek-ai/TileKernels/pull/45) · 🟢 Open |
-| [MoonshotAI / MoonEP](https://github.com/MoonshotAI/MoonEP) | 补齐隔离构建配置与源码发行包所需 CUDA 头文件。 | [#41](https://github.com/MoonshotAI/MoonEP/pull/41) · [#42](https://github.com/MoonshotAI/MoonEP/pull/42) · 🟢 Open |
-| [bytedance / GRN](https://github.com/bytedance/GRN) | 修复重标注工具导入时加载大模型、T2I 模型选择与 JSONL 文件名处理。 | [#45](https://github.com/bytedance/GRN/pull/45) · [#46](https://github.com/bytedance/GRN/pull/46) · [#47](https://github.com/bytedance/GRN/pull/47) · 🟢 Open |
-| [bytedance / deer-flow](https://github.com/bytedance/deer-flow) | 修复 Tavily 搜索工具对 max_results 配置的类型处理。 | [#7565](https://github.com/bytedance/deer-flow/pull/7565) · 🟢 Open |
-| [alibaba / open-code-review](https://github.com/alibaba/open-code-review) | 修复代码搜索对特殊文件路径的解析。 | [#1831](https://github.com/alibaba/open-code-review/pull/1831) · 🟢 Open |
-
-</details>
-
-<sub>PR 状态核对于 2026-11-03 · <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic">查看全部公开 PR ↗</a></sub>
+<p align="center">
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic+-user%3Au7-u7">全部对外 PR ↗</a> ·
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic+-user%3Au7-u7+is%3Amerged">已合并 PR ↗</a> ·
+  <a href="./docs/contribution-metrics.md">统计口径与数据 ↗</a>
+</p>
 
 ## 🛠️ Tech Stack
 

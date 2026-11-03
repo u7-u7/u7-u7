@@ -1,0 +1,43 @@
+name: Update contribution dashboard
+
+on:
+  schedule:
+    # 每天 10:37（中国标准时间），与贡献蛇错开。
+    - cron: "37 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/*contributions.mjs
+      - scripts/contribution-data.mjs
+      - .github/workflows/update-contributions.yml
+
+permissions: {}
+
+concurrency:
+  group: contribution-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Generate public contribution dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/generate-contributions.mjs
+      - name: Publish generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contributions
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: refresh public contribution dashboard"
+          git push
