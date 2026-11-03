@@ -13,7 +13,7 @@ const output = new URL('../assets/contributions/', import.meta.url);
 await mkdir(output, { recursive: true });
 await writeFile(new URL('data.json', output), `${JSON.stringify(data, null, 2)}\n`);
 for (const theme of ['light', 'dark']) {
-  await writeFile(new URL(`dashboard-merged-${theme}.svg`, output), renderDashboard(data, theme));
-  await writeFile(new URL(`dashboard-merged-${theme}-mobile.svg`, output), renderDashboard(data, theme, true));
+  await writeFile(new URL(`dashboard-simple-${theme}.svg`, output), renderDashboard(data, theme));
+  await writeFile(new URL(`dashboard-simple-${theme}-mobile.svg`, output), renderDashboard(data, theme, true));
 }
 console.log(JSON.stringify({ publicCommits: commits.total, yearCommits: commits.yearTotal, externalPRs: prs.total, mergedPRs: prs.merged, projects: prs.projects }));

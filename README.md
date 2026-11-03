@@ -72,10 +72,10 @@
 ## 📊 Open Source Dashboard
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-merged-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/contributions/dashboard-merged-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-merged-dark.svg" />
-  <img width="100%" src="./assets/contributions/dashboard-merged-light.svg" alt="u7 的公开贡献看板：已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-simple-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/contributions/dashboard-simple-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-simple-dark.svg" />
+  <img width="100%" src="./assets/contributions/dashboard-simple-light.svg" alt="u7 的公开贡献看板：已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
 </picture>
 
 <p align="center">
