@@ -79,7 +79,6 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic+-user%3Au7-u7">全部对外 PR ↗</a> ·
   <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic+-user%3Au7-u7+is%3Amerged">已合并 PR ↗</a>
 </p>
 
