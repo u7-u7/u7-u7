@@ -36,7 +36,7 @@
   <tbody>
     <tr>
       <td>🧭 <a href="https://github.com/u7-u7/Agent-Path">Agent-Path</a></td>
-      <td>面向 AI Agent 开发的个人学习站，整合学习路线、项目实践、每日打卡与面试题库，支持学习进度记录和个人题库管理。</td>
+      <td>面向 AI Agent 开发的个人学习站，整合学习路线、项目实践、每日打卡与面试题库，支持学习进度记录和个人题库管理。<a href="https://learn.u7u7.top">项目网站 ↗</a></td>
     </tr>
     <tr>
       <td>💎 <a href="https://github.com/u7-u7/Sapphire-CN">Sapphire-CN</a></td>
