@@ -35,6 +35,10 @@
   </thead>
   <tbody>
     <tr>
+      <td>🧭 <a href="https://github.com/u7-u7/Agent-Path">Agent-Path</a></td>
+      <td>面向 AI Agent 开发的个人学习站，整合学习路线、项目实践、每日打卡与面试题库，支持学习进度记录和个人题库管理。</td>
+    </tr>
+    <tr>
       <td>💎 <a href="https://github.com/u7-u7/Sapphire-CN">Sapphire-CN</a></td>
       <td>基于 Sapphire 二次开发的 macOS 刘海工具：中文适配、Codex / Claude 订阅额度与第三方平台余额查询，修复 Helper 连接并完善应用内更新。<a href="https://sapphire.u7u7.top/">项目网站 ↗</a></td>
     </tr>
