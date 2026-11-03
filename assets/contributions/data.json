@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-03T13:10:14.343Z",
+  "updatedAt": "2026-11-03T13:13:46.340Z",
   "prs": {
     "total": 124,
     "merged": 36,
     "open": 82,
     "closed": 6,
-    "draft": 52,
+    "draft": 51,
     "projects": 15,
     "repositories": [
       {
@@ -24,7 +24,7 @@
         "merged": 7,
         "open": 24,
         "closed": 1,
-        "draft": 17
+        "draft": 16
       },
       {
         "name": "Tencent/BrowserSkill",
@@ -133,9 +133,9 @@
     ]
   },
   "commits": {
-    "total": 354,
+    "total": 355,
     "year": 2026,
-    "yearTotal": 73,
+    "yearTotal": 74,
     "since": "2022-10",
     "months": [
       {
@@ -336,7 +336,7 @@
       },
       {
         "month": "2026-11",
-        "count": 7
+        "count": 8
       }
     ]
   }
