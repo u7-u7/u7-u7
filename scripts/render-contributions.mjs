@@ -83,38 +83,35 @@ function commitChart(commits, t) {
   return rect(468, 352, 460, 370, t.panel, 14, `stroke="${t.border}"`) +
     text(488, 383, `${commits.year} · 每月公开 Commits`, 17, t.text, 'font-weight="650"') +
     text(488, 429, number(commits.yearTotal), 32, t.purple, 'font-weight="700"') +
-    text(488, 452, '今年累计 · 按 GitHub 贡献图口径', 12, t.muted) +
-    `<path d="M500 647H906" stroke="${t.border}"/>` + bars +
-    text(488, 704, '只统计 commit，不含 PR、Issue 和 Review 次数', 11, t.muted);
+    `<path d="M500 647H906" stroke="${t.border}"/>` + bars;
 }
 
 export function renderDashboard(data, theme, mobile = false) {
   const t = THEMES[theme];
   const date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai', dateStyle: 'short', timeStyle: 'short' }).format(new Date(data.updatedAt));
   if (mobile) return renderMobile(data, t, date);
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="800" viewBox="0 0 960 800" role="img" aria-labelledby="title desc">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740" role="img" aria-labelledby="title desc">
   <title id="title">u7 的公开开源贡献数据</title>
   <desc id="desc">已有 ${data.prs.merged} 个 PR 已合并，覆盖 ${data.prs.projects} 个项目。${data.commits.year} 年公开 commit 贡献 ${data.commits.yearTotal} 次。</desc>
   <defs><clipPath id="status-clip"><rect x="32" y="288" width="896" height="10" rx="5"/></clipPath></defs>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
-  ${rect(0.5, 0.5, 959, 799, t.bg, 22, `stroke="${t.border}"`)}
+  ${rect(0.5, 0.5, 959, 739, t.bg, 22, `stroke="${t.border}"`)}
   ${rect(32, 28, 4, 48, t.purple, 2)}
   ${text(50, 48, 'u7 / OPEN SOURCE', 13, t.purple, 'font-weight="700" letter-spacing="2"')}
   ${text(928, 47, 'PUBLIC DATA ONLY', 10, t.muted, 'text-anchor="end" letter-spacing="1.3"')}
   ${text(928, 72, `${date} CST`, 11, t.muted, 'text-anchor="end"')}
   ${metricCards(data, t)}${statusBar(data.prs, t)}${projectChart(data.prs, t)}${commitChart(data.commits, t)}
-  ${text(32, 778, '由 GitHub Actions 每日更新 · 统计口径与原始聚合数据见下方链接', 11, t.muted)}
   </g>
 </svg>\n`;
 }
 
 function renderMobile(data, t, date) {
   const prs = data.prs;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1196" viewBox="0 0 480 1196" role="img" aria-labelledby="title desc">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1142" viewBox="0 0 480 1142" role="img" aria-labelledby="title desc">
   <title id="title">u7 的公开开源贡献数据</title>
   <desc id="desc">已合并 ${prs.merged} 个 PR，参与 ${prs.projects} 个项目。</desc>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
-  ${rect(.5, .5, 479, 1195, t.bg, 18, `stroke="${t.border}"`)}
+  ${rect(.5, .5, 479, 1141, t.bg, 18, `stroke="${t.border}"`)}
   ${text(20, 35, 'u7 / OPEN SOURCE', 13, t.purple, 'font-weight="700" letter-spacing="2"')}
   ${text(20, 88, `公开数据 · ${date} CST`, 11, t.muted)}
   ${metricCards(data, t, true)}
@@ -127,6 +124,5 @@ function renderMobile(data, t, date) {
   ${text(20, 349, `● ${prs.closed} 已关闭未合并`, 13, t.muted)}
   <g transform="translate(-6 20)">${projectChart(prs, t)}</g>
   <g transform="translate(-458 408)">${commitChart(data.commits, t)}</g>
-  ${text(20, 1180, 'GitHub Actions 每日更新 · 下方链接可查看统计口径', 11, t.muted)}
   </g></svg>\n`;
 }
