@@ -16,7 +16,9 @@
 
 ### 📝 **个人博客 [u7u7.top](https://u7u7.top/)**：记录从零接触、学习编程，到走进工作的一路成长
 
-### 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**
+### 🤖 正在探索 **AI Agent、可复用 Skills 与研发工作流自动化**，也在把 AI 能力做进日常使用的桌面工具
+
+### 🌱 近期在维护 **Sapphire-CN、DeepSeek Harness Desktop**，并参与 **Agent 记忆、RAG 与浏览器自动化**相关开源项目
 
 ### ☕ 践行 **Vibe Coding**：把灵感快速变成可用原型，再打磨成可维护的工程作品
 
@@ -24,44 +26,78 @@
 
 ## 🚀 Featured Projects
 
+最近主要在做 AI 工具、桌面应用与可复用 Skills，也持续打磨 Java / Vue 工程实践。
+
 <table>
   <thead>
     <tr>
-      <th width="34%">Project</th>
-      <th>What I built</th>
+      <th width="30%">Project</th>
+      <th>What I built / contributed</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>🌐 <a href="https://github.com/u7-u7/u7-u7.github.io">个人博客</a></td>
-      <td><a href="https://u7u7.top">u7u7.top</a> 的站点源码，记录从零学习编程到走进工作的成长。</td>
+      <td>💎 <a href="https://github.com/u7-u7/Sapphire-CN">Sapphire-CN</a></td>
+      <td>基于 Sapphire 二次开发的 macOS 刘海工具：中文适配、Codex / Claude 订阅额度与第三方平台余额查询，修复 Helper 连接并完善应用内更新。<a href="https://sapphire.u7u7.top/">项目网站 ↗</a></td>
     </tr>
     <tr>
-      <td>💻 <a href="https://github.com/wangjicheng2004/dsh-desktop.git">DeepSeek Harness客户端</a></td>
-      <td> 封装了DeepSeek Harness，支持一键换肤和skill管理的客户端功能</td>
+      <td>💻 <a href="https://github.com/u7-u7/dsh-desktop">DeepSeek Harness Desktop</a></td>
+      <td>参与开发并维护桌面客户端，支持一键启动、托盘常驻、换肤与 Skill 入口；向上游贡献内置运行时的独立 macOS 安装包。<a href="https://github.com/wangjicheng2004/dsh-desktop/pull/1">PR #1 · Merged ↗</a></td>
     </tr>
     <tr>
       <td>🧰 <a href="https://github.com/u7-u7/dev-skills">dev-skills</a></td>
-      <td>面向 Codex、Cursor、Claude Code 的 AI Skills 工具箱，覆盖需求、开发、审查、测试与可视化等研发环节。</td>
+      <td>面向 Codex、Cursor、Claude Code 的个人 AI Skills 工具箱，覆盖需求分析、开发、代码审查、测试设计与可视化，并提供跨客户端安装和本地使用统计。</td>
     </tr>
     <tr>
-      <td>📄 <a href="https://github.com/u7-u7/developer-resume-writer">u7✌️同款简历Get skill</a></td>
-      <td>理解 Git 或本地项目，生成可直接写入简历的项目简介、技术栈与项目产出。</td>
+      <td>📄 <a href="https://github.com/u7-u7/developer-resume-writer">u7✌️同款简历 Skill</a></td>
+      <td>理解 Git 或本地项目，把项目证据整理成简历中的项目简介、技术栈与亮点；支持按目标岗位调整内容。</td>
+    </tr>
+    <tr>
+      <td>🌐 <a href="https://github.com/u7-u7/u7-u7.github.io">个人博客</a></td>
+      <td><a href="https://u7u7.top">u7u7.top</a>，记录从零学习编程到走进工作的成长，分享技术实践与折腾过程。</td>
     </tr>
     <tr>
       <td>⚙️ <a href="https://github.com/u7-u7/dynamic-thread-pool">dynamic&#8209;thread&#8209;pool</a></td>
       <td>基于 Spring Boot 的动态线程池管理系统，支持运行时调参、监控、通知与 Redis 配置。</td>
     </tr>
     <tr>
-      <td>🗺️ <a href="https://github.com/u7-u7/LnTravelCloud">旅游云后端</a></td>
-      <td>面向景区分析与可视化的微服务后端实践。</td>
-    </tr>
-    <tr>
-      <td>🎨 <a href="https://github.com/u7-u7/LnTravelVue">旅游云前端</a></td>
-      <td>配套的 Vue 数据可视化前端。</td>
+      <td>🗺️ 旅游云 · <a href="https://github.com/u7-u7/LnTravelCloud">后端</a> / <a href="https://github.com/u7-u7/LnTravelVue">前端</a></td>
+      <td>面向景区分析与数据可视化的微服务后端及配套 Vue 前端实践。</td>
     </tr>
   </tbody>
 </table>
+
+## 🤝 Open Source Contributions
+
+近期围绕 Agent 记忆、RAG 检索、浏览器工具与工程可靠性参与上游项目，下面是一些已合并的贡献。
+
+| Project | 我的贡献 | 代表 PR |
+| --- | --- | --- |
+| 🧠 [Tencent-Hunyuan / Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | 修复跨线程上下文传递、迁移日志写入顺序与多 Agent 检索隔离等问题。 | [#199](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/199) · [#203](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/203) · [#81](https://github.com/Tencent-Hunyuan/Hy-Memory/pull/81) · ✅ Merged |
+| 📚 [Tencent / WeKnora](https://github.com/Tencent/WeKnora) | 增加知识检索同父块 Top-K 聚合选项，修复飞书同步进度与空全文检索查询。 | [#4740](https://github.com/Tencent/WeKnora/pull/4740) · [#4736](https://github.com/Tencent/WeKnora/pull/4736) · [#4819](https://github.com/Tencent/WeKnora/pull/4819) · ✅ Merged |
+| 🌐 [Tencent / BrowserSkill](https://github.com/Tencent/BrowserSkill) | 适配 DSH v4 消息来源格式，完善扩展类型生成与评测工具兼容性。 | [#539](https://github.com/Tencent/BrowserSkill/pull/539) · [#499](https://github.com/Tencent/BrowserSkill/pull/499) · [#504](https://github.com/Tencent/BrowserSkill/pull/504) · ✅ Merged |
+| ⚡ [MoonshotAI / FlashKDA](https://github.com/MoonshotAI/FlashKDA) | 为基准测试增加可配置随机种子，让同一用例的输入可复现。 | [#38](https://github.com/MoonshotAI/FlashKDA/pull/38) · ✅ Merged |
+
+<details>
+  <summary>🔎 更多正在参与的项目与 PR</summary>
+
+以下 PR 尚未合并；Open 为已提交，Draft 为草稿，具体进度以链接中的实时状态为准。
+
+| Project | 提交内容 | 代表 PR / 状态 |
+| --- | --- | --- |
+| [volcengine / OpenViking](https://github.com/volcengine/OpenViking) | 改善文档解析效率，修复 Studio 编辑状态与输入交互问题。 | [#6935](https://github.com/volcengine/OpenViking/pull/6935) · [#6820](https://github.com/volcengine/OpenViking/pull/6820) · 📝 Draft |
+| [modelscope / ms-agent](https://github.com/modelscope/ms-agent) | 修复守护线程池退出阻塞，并改进流式任务清理。 | [#1029](https://github.com/modelscope/ms-agent/pull/1029) · 🟢 Open；[#1042](https://github.com/modelscope/ms-agent/pull/1042) · 📝 Draft |
+| [bytedance / trae-agent](https://github.com/bytedance/trae-agent) | 修复 Anthropic 输出限制配置与非 UTF-8 命令输出导致的会话中断。 | [#584](https://github.com/bytedance/trae-agent/pull/584) · [#583](https://github.com/bytedance/trae-agent/pull/583) · 📝 Draft |
+| [deepseek-ai / DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 校验加速器配置，补齐源码发行包构建输入。 | [#237](https://github.com/deepseek-ai/DeepInfer/pull/237) · 🟢 Open；[#245](https://github.com/deepseek-ai/DeepInfer/pull/245) · 📝 Draft |
+| [deepseek-ai / TileKernels](https://github.com/deepseek-ai/TileKernels) | 修复测试分片路径与 GPU 显存 profile 默认目录处理。 | [#44](https://github.com/deepseek-ai/TileKernels/pull/44) · [#45](https://github.com/deepseek-ai/TileKernels/pull/45) · 🟢 Open |
+| [MoonshotAI / MoonEP](https://github.com/MoonshotAI/MoonEP) | 补齐隔离构建配置与源码发行包所需 CUDA 头文件。 | [#41](https://github.com/MoonshotAI/MoonEP/pull/41) · [#42](https://github.com/MoonshotAI/MoonEP/pull/42) · 🟢 Open |
+| [bytedance / GRN](https://github.com/bytedance/GRN) | 修复重标注工具导入时加载大模型、T2I 模型选择与 JSONL 文件名处理。 | [#45](https://github.com/bytedance/GRN/pull/45) · [#46](https://github.com/bytedance/GRN/pull/46) · [#47](https://github.com/bytedance/GRN/pull/47) · 🟢 Open |
+| [bytedance / deer-flow](https://github.com/bytedance/deer-flow) | 修复 Tavily 搜索工具对 max_results 配置的类型处理。 | [#7565](https://github.com/bytedance/deer-flow/pull/7565) · 🟢 Open |
+| [alibaba / open-code-review](https://github.com/alibaba/open-code-review) | 修复代码搜索对特殊文件路径的解析。 | [#1831](https://github.com/alibaba/open-code-review/pull/1831) · 🟢 Open |
+
+</details>
+
+<sub>PR 状态核对于 2026-11-03 · <a href="https://github.com/pulls?q=is%3Apr+author%3Au7-u7+is%3Apublic">查看全部公开 PR ↗</a></sub>
 
 ## 🛠️ Tech Stack
 
