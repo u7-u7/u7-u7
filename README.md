@@ -26,8 +26,6 @@
 
 ## 🚀 Featured Projects
 
-最近主要在做 AI 工具、桌面应用与可复用 Skills，也持续打磨 Java / Vue 工程实践。
-
 <table>
   <thead>
     <tr>
@@ -42,7 +40,7 @@
     </tr>
     <tr>
       <td>💻 <a href="https://github.com/u7-u7/dsh-desktop">DeepSeek Harness Desktop</a></td>
-      <td>参与开发并维护桌面客户端，支持一键启动、托盘常驻、换肤与 Skill 入口；向上游贡献内置运行时的独立 macOS 安装包。<a href="https://github.com/wangjicheng2004/dsh-desktop/pull/1">PR #1 · Merged ↗</a></td>
+      <td>参与开发并维护桌面客户端，支持一键启动、托盘常驻、换肤与 Skill 入口；向上游贡献内置运行时的独立 macOS 安装包。</td>
     </tr>
     <tr>
       <td>🧰 <a href="https://github.com/u7-u7/dev-skills">dev-skills</a></td>
