@@ -16,8 +16,8 @@ function rect(x, y, width, height, fill, radius = 0, extra = '') {
 
 function metricCards(data, t, mobile = false) {
   const metrics = [
-    ['PUBLIC COMMITS', data.commits.total, `公开提交 · 自 ${data.commits.since}`, t.text],
-    ['PULL REQUESTS', data.prs.total, '向其他公开项目提交', t.text],
+    ['PUBLIC COMMITS', data.commits.total, '', t.text],
+    ['PULL REQUESTS', data.prs.total, '', t.text],
     ['MERGED PRs', data.prs.merged, '已被上游合并', t.purple],
     ['PROJECTS', data.prs.projects, '参与贡献的上游项目', t.cyan],
   ];
@@ -102,11 +102,9 @@ export function renderDashboard(data, theme, mobile = false) {
   ${rect(0.5, 0.5, 959, 799, t.bg, 22, `stroke="${t.border}"`)}
   ${rect(32, 28, 4, 48, t.purple, 2)}
   ${text(50, 48, 'u7 / OPEN SOURCE', 13, t.purple, 'font-weight="700" letter-spacing="2"')}
-  ${text(50, 77, '把每一次提交，变成看得见的贡献。', 21, t.text, 'font-weight="650"')}
   ${text(928, 47, 'PUBLIC DATA ONLY', 10, t.muted, 'text-anchor="end" letter-spacing="1.3"')}
   ${text(928, 72, `${date} CST`, 11, t.muted, 'text-anchor="end"')}
   ${metricCards(data, t)}${statusBar(data.prs, t)}${projectChart(data.prs, t)}${commitChart(data.commits, t)}
-  ${text(32, 754, 'Commits：所有公开仓库中的 GitHub commit 贡献 · PR：向其他公开项目提交的历史 PR', 11, t.muted)}
   ${text(32, 778, '由 GitHub Actions 每日更新 · 统计口径与原始聚合数据见下方链接', 11, t.muted)}
   </g>
 </svg>\n`;
@@ -120,7 +118,6 @@ function renderMobile(data, t, date) {
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
   ${rect(.5, .5, 479, 1335, t.bg, 18, `stroke="${t.border}"`)}
   ${text(20, 35, 'u7 / OPEN SOURCE', 13, t.purple, 'font-weight="700" letter-spacing="2"')}
-  ${text(20, 65, '把每一次提交，变成看得见的贡献。', 21, t.text, 'font-weight="650"')}
   ${text(20, 88, `公开数据 · ${date} CST`, 11, t.muted)}
   ${metricCards(data, t, true)}
   ${text(20, 410, 'PR STATUS', 12, t.muted, 'font-weight="600" letter-spacing="1.3"')}
@@ -132,7 +129,6 @@ function renderMobile(data, t, date) {
   ${text(20, 489, `● ${prs.closed} 已关闭未合并`, 13, t.muted)}
   <g transform="translate(-6 160)">${projectChart(prs, t)}</g>
   <g transform="translate(-458 548)">${commitChart(data.commits, t)}</g>
-  ${text(20, 1296, 'Commits：所有公开仓库 · PR：向其他公开项目提交', 11, t.muted)}
   ${text(20, 1320, 'GitHub Actions 每日更新 · 下方链接可查看统计口径', 11, t.muted)}
   </g></svg>\n`;
 }
