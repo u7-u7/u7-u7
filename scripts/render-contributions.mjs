@@ -16,15 +16,13 @@ function rect(x, y, width, height, fill, radius = 0, extra = '') {
 
 function metricCards(data, t, mobile = false) {
   const metrics = [
-    ['PUBLIC COMMITS', data.commits.total, '', t.text],
-    ['PULL REQUESTS', data.prs.total, '', t.text],
     ['MERGED PRs', data.prs.merged, '已被上游合并', t.purple],
     ['PROJECTS', data.prs.projects, '参与贡献的上游项目', t.cyan],
   ];
   return metrics.map(([label, value, detail, color], i) => {
-    const x = (mobile ? 16 : 32) + (mobile ? i % 2 : i) * 228;
-    const y = mobile ? Math.floor(i / 2) * 140 : 0;
-    return rect(x, 108 + y, 212, 126, t.panel, 14, `stroke="${t.border}"`) +
+    const x = (mobile ? 16 : 32) + i * (mobile ? 228 : 456);
+    const y = 0;
+    return rect(x, 108 + y, mobile ? 212 : 440, 126, t.panel, 14, `stroke="${t.border}"`) +
       text(x + 18, 136 + y, label, 12, t.muted, 'font-weight="600" letter-spacing="1"') +
       text(x + 18, 181 + y, number(value), 38, color, 'font-weight="750"') + text(x + 18, 212 + y, detail, 12, t.muted);
   }).join('');
@@ -96,7 +94,7 @@ export function renderDashboard(data, theme, mobile = false) {
   if (mobile) return renderMobile(data, t, date);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="800" viewBox="0 0 960 800" role="img" aria-labelledby="title desc">
   <title id="title">u7 的公开开源贡献数据</title>
-  <desc id="desc">公开 commit 贡献 ${data.commits.total} 次；对外 PR ${data.prs.total} 个，其中 ${data.prs.merged} 个已合并，覆盖 ${data.prs.projects} 个项目。${data.commits.year} 年公开 commit 贡献 ${data.commits.yearTotal} 次。</desc>
+  <desc id="desc">已有 ${data.prs.merged} 个 PR 已合并，覆盖 ${data.prs.projects} 个项目。${data.commits.year} 年公开 commit 贡献 ${data.commits.yearTotal} 次。</desc>
   <defs><clipPath id="status-clip"><rect x="32" y="288" width="896" height="10" rx="5"/></clipPath></defs>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
   ${rect(0.5, 0.5, 959, 799, t.bg, 22, `stroke="${t.border}"`)}
@@ -112,23 +110,23 @@ export function renderDashboard(data, theme, mobile = false) {
 
 function renderMobile(data, t, date) {
   const prs = data.prs;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1336" viewBox="0 0 480 1336" role="img" aria-labelledby="title desc">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1196" viewBox="0 0 480 1196" role="img" aria-labelledby="title desc">
   <title id="title">u7 的公开开源贡献数据</title>
-  <desc id="desc">公开 commit ${data.commits.total} 次；对外 PR ${prs.total} 个，已合并 ${prs.merged} 个，参与 ${prs.projects} 个项目。</desc>
+  <desc id="desc">已合并 ${prs.merged} 个 PR，参与 ${prs.projects} 个项目。</desc>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
-  ${rect(.5, .5, 479, 1335, t.bg, 18, `stroke="${t.border}"`)}
+  ${rect(.5, .5, 479, 1195, t.bg, 18, `stroke="${t.border}"`)}
   ${text(20, 35, 'u7 / OPEN SOURCE', 13, t.purple, 'font-weight="700" letter-spacing="2"')}
   ${text(20, 88, `公开数据 · ${date} CST`, 11, t.muted)}
   ${metricCards(data, t, true)}
-  ${text(20, 410, 'PR STATUS', 12, t.muted, 'font-weight="600" letter-spacing="1.3"')}
-  ${rect(20, 426, 440, 10, t.faint, 5)}
-  ${rect(20, 426, prs.total ? 440 * prs.merged / prs.total : 0, 10, t.purple, 0)}
-  ${rect(20 + (prs.total ? 440 * prs.merged / prs.total : 0), 426, prs.total ? 440 * prs.open / prs.total : 0, 10, t.cyan, 0)}
-  ${text(20, 463, `● ${prs.merged} 已合并`, 13, t.purple)}
-  ${text(182, 463, `● ${prs.open} 待合并（含 ${prs.draft} 草稿）`, 13, t.cyan)}
-  ${text(20, 489, `● ${prs.closed} 已关闭未合并`, 13, t.muted)}
-  <g transform="translate(-6 160)">${projectChart(prs, t)}</g>
-  <g transform="translate(-458 548)">${commitChart(data.commits, t)}</g>
-  ${text(20, 1320, 'GitHub Actions 每日更新 · 下方链接可查看统计口径', 11, t.muted)}
+  ${text(20, 270, 'PR STATUS', 12, t.muted, 'font-weight="600" letter-spacing="1.3"')}
+  ${rect(20, 286, 440, 10, t.faint, 5)}
+  ${rect(20, 286, prs.total ? 440 * prs.merged / prs.total : 0, 10, t.purple, 0)}
+  ${rect(20 + (prs.total ? 440 * prs.merged / prs.total : 0), 286, prs.total ? 440 * prs.open / prs.total : 0, 10, t.cyan, 0)}
+  ${text(20, 323, `● ${prs.merged} 已合并`, 13, t.purple)}
+  ${text(182, 323, `● ${prs.open} 待合并（含 ${prs.draft} 草稿）`, 13, t.cyan)}
+  ${text(20, 349, `● ${prs.closed} 已关闭未合并`, 13, t.muted)}
+  <g transform="translate(-6 20)">${projectChart(prs, t)}</g>
+  <g transform="translate(-458 408)">${commitChart(data.commits, t)}</g>
+  ${text(20, 1180, 'GitHub Actions 每日更新 · 下方链接可查看统计口径', 11, t.muted)}
   </g></svg>\n`;
 }

@@ -75,7 +75,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-dark-mobile.svg" />
   <source media="(max-width: 600px)" srcset="./assets/contributions/dashboard-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/dashboard-dark.svg" />
-  <img width="100%" src="./assets/contributions/dashboard-light.svg" alt="u7 的公开贡献看板：公开 commit 总数、对外 PR、已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
+  <img width="100%" src="./assets/contributions/dashboard-light.svg" alt="u7 的公开贡献看板：已合并 PR、参与项目数、项目分布和今年月度 commit 趋势" />
 </picture>
 
 <p align="center">
