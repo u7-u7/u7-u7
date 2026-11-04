@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-03T13:13:46.340Z",
+  "updatedAt": "2026-11-04T09:45:15.638Z",
   "prs": {
-    "total": 124,
+    "total": 126,
     "merged": 36,
-    "open": 82,
+    "open": 84,
     "closed": 6,
-    "draft": 51,
+    "draft": 22,
     "projects": 15,
     "repositories": [
       {
         "name": "Tencent-Hunyuan/Hy-Memory",
-        "total": 47,
+        "total": 49,
         "merged": 20,
-        "open": 23,
+        "open": 25,
         "closed": 4,
         "draft": 11
       },
@@ -24,7 +24,7 @@
         "merged": 7,
         "open": 24,
         "closed": 1,
-        "draft": 16
+        "draft": 0
       },
       {
         "name": "Tencent/BrowserSkill",
@@ -32,7 +32,7 @@
         "merged": 4,
         "open": 5,
         "closed": 0,
-        "draft": 5
+        "draft": 0
       },
       {
         "name": "volcengine/OpenViking",
@@ -48,7 +48,7 @@
         "merged": 0,
         "open": 7,
         "closed": 0,
-        "draft": 6
+        "draft": 0
       },
       {
         "name": "wangjicheng2004/dsh-desktop",
@@ -72,7 +72,7 @@
         "merged": 0,
         "open": 3,
         "closed": 0,
-        "draft": 2
+        "draft": 0
       },
       {
         "name": "bytedance/trae-agent",
@@ -133,9 +133,9 @@
     ]
   },
   "commits": {
-    "total": 355,
+    "total": 358,
     "year": 2026,
-    "yearTotal": 74,
+    "yearTotal": 77,
     "since": "2022-10",
     "months": [
       {
@@ -336,7 +336,7 @@
       },
       {
         "month": "2026-11",
-        "count": 8
+        "count": 11
       }
     ]
   }
