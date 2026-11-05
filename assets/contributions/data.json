@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-04T09:45:15.638Z",
+  "updatedAt": "2026-11-05T09:47:47.203Z",
   "prs": {
-    "total": 126,
-    "merged": 36,
+    "total": 127,
+    "merged": 37,
     "open": 84,
     "closed": 6,
     "draft": 22,
@@ -20,17 +20,17 @@
       },
       {
         "name": "Tencent/WeKnora",
-        "total": 32,
+        "total": 33,
         "merged": 7,
-        "open": 24,
+        "open": 25,
         "closed": 1,
         "draft": 0
       },
       {
         "name": "Tencent/BrowserSkill",
         "total": 9,
-        "merged": 4,
-        "open": 5,
+        "merged": 5,
+        "open": 4,
         "closed": 0,
         "draft": 0
       },
@@ -133,9 +133,9 @@
     ]
   },
   "commits": {
-    "total": 358,
+    "total": 359,
     "year": 2026,
-    "yearTotal": 77,
+    "yearTotal": 78,
     "since": "2022-10",
     "months": [
       {
@@ -336,7 +336,7 @@
       },
       {
         "month": "2026-11",
-        "count": 11
+        "count": 12
       }
     ]
   }
