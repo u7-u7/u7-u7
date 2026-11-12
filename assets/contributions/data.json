@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-11T09:47:11.683Z",
+  "updatedAt": "2026-11-12T10:11:10.851Z",
   "prs": {
-    "total": 134,
-    "merged": 49,
-    "open": 79,
-    "closed": 6,
+    "total": 136,
+    "merged": 56,
+    "open": 73,
+    "closed": 7,
     "draft": 0,
-    "projects": 15,
+    "projects": 16,
     "repositories": [
       {
         "name": "Tencent-Hunyuan/Hy-Memory",
         "total": 49,
-        "merged": 25,
-        "open": 20,
-        "closed": 4,
+        "merged": 32,
+        "open": 12,
+        "closed": 5,
         "draft": 0
       },
       {
         "name": "Tencent/WeKnora",
-        "total": 38,
+        "total": 39,
         "merged": 14,
-        "open": 23,
+        "open": 24,
         "closed": 1,
         "draft": 0
       },
@@ -115,6 +115,14 @@
         "draft": 0
       },
       {
+        "name": "cloudwego/eino-ext",
+        "total": 1,
+        "merged": 0,
+        "open": 1,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "loks666/get_jobs",
         "total": 1,
         "merged": 1,
@@ -133,9 +141,9 @@
     ]
   },
   "commits": {
-    "total": 373,
+    "total": 381,
     "year": 2026,
-    "yearTotal": 92,
+    "yearTotal": 100,
     "since": "2022-10",
     "months": [
       {
@@ -332,11 +340,11 @@
       },
       {
         "month": "2026-10",
-        "count": 31
+        "count": 36
       },
       {
         "month": "2026-11",
-        "count": 26
+        "count": 29
       }
     ]
   }
