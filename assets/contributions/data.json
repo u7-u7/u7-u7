@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-12T10:11:10.851Z",
+  "updatedAt": "2026-11-13T09:54:33.404Z",
   "prs": {
-    "total": 136,
+    "total": 137,
     "merged": 56,
-    "open": 73,
+    "open": 74,
     "closed": 7,
     "draft": 0,
     "projects": 16,
@@ -20,9 +20,9 @@
       },
       {
         "name": "Tencent/WeKnora",
-        "total": 39,
+        "total": 40,
         "merged": 14,
-        "open": 24,
+        "open": 25,
         "closed": 1,
         "draft": 0
       },
