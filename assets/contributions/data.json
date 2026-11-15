@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-14T09:19:25.400Z",
+  "updatedAt": "2026-11-15T09:49:43.924Z",
   "prs": {
-    "total": 137,
+    "total": 138,
     "merged": 56,
-    "open": 74,
+    "open": 75,
     "closed": 7,
     "draft": 0,
-    "projects": 16,
+    "projects": 17,
     "repositories": [
       {
         "name": "Tencent-Hunyuan/Hy-Memory",
@@ -116,6 +116,14 @@
       },
       {
         "name": "cloudwego/eino-ext",
+        "total": 1,
+        "merged": 0,
+        "open": 1,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "langgenius/dify-official-plugins",
         "total": 1,
         "merged": 0,
         "open": 1,
