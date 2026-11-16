@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-15T09:49:43.924Z",
+  "updatedAt": "2026-11-16T10:06:40.685Z",
   "prs": {
     "total": 138,
-    "merged": 56,
-    "open": 75,
-    "closed": 7,
+    "merged": 66,
+    "open": 64,
+    "closed": 8,
     "draft": 0,
     "projects": 17,
     "repositories": [
@@ -21,9 +21,9 @@
       {
         "name": "Tencent/WeKnora",
         "total": 40,
-        "merged": 14,
-        "open": 25,
-        "closed": 1,
+        "merged": 24,
+        "open": 14,
+        "closed": 2,
         "draft": 0
       },
       {
@@ -149,9 +149,9 @@
     ]
   },
   "commits": {
-    "total": 382,
+    "total": 391,
     "year": 2026,
-    "yearTotal": 101,
+    "yearTotal": 110,
     "since": "2022-10",
     "months": [
       {
@@ -352,7 +352,7 @@
       },
       {
         "month": "2026-11",
-        "count": 30
+        "count": 39
       }
     ]
   }
