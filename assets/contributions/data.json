@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-16T10:06:40.685Z",
+  "updatedAt": "2026-11-17T11:03:21.804Z",
   "prs": {
-    "total": 138,
+    "total": 139,
     "merged": 66,
-    "open": 64,
+    "open": 65,
     "closed": 8,
     "draft": 0,
     "projects": 17,
@@ -91,6 +91,14 @@
         "draft": 0
       },
       {
+        "name": "langgenius/dify-official-plugins",
+        "total": 2,
+        "merged": 0,
+        "open": 2,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "MoonshotAI/MoonEP",
         "total": 2,
         "merged": 0,
@@ -116,14 +124,6 @@
       },
       {
         "name": "cloudwego/eino-ext",
-        "total": 1,
-        "merged": 0,
-        "open": 1,
-        "closed": 0,
-        "draft": 0
-      },
-      {
-        "name": "langgenius/dify-official-plugins",
         "total": 1,
         "merged": 0,
         "open": 1,
