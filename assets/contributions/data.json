@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-17T11:03:21.804Z",
+  "updatedAt": "2026-11-18T10:37:42.022Z",
   "prs": {
     "total": 139,
     "merged": 66,
-    "open": 65,
-    "closed": 8,
+    "open": 62,
+    "closed": 11,
     "draft": 0,
     "projects": 17,
     "repositories": [
@@ -38,8 +38,8 @@
         "name": "Tencent/BrowserSkill",
         "total": 9,
         "merged": 5,
-        "open": 4,
-        "closed": 0,
+        "open": 2,
+        "closed": 2,
         "draft": 0
       },
       {
@@ -110,8 +110,8 @@
         "name": "alibaba/open-code-review",
         "total": 1,
         "merged": 0,
-        "open": 1,
-        "closed": 0,
+        "open": 0,
+        "closed": 1,
         "draft": 0
       },
       {
