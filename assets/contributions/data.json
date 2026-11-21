@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-20T10:23:24.859Z",
+  "updatedAt": "2026-11-21T10:07:36.081Z",
   "prs": {
-    "total": 139,
+    "total": 140,
     "merged": 66,
-    "open": 62,
+    "open": 63,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -67,7 +67,7 @@
         "draft": 0
       },
       {
-        "name": "deepseek-ai/DeepInfer",
+        "name": "bytedance/trae-agent",
         "total": 3,
         "merged": 0,
         "open": 3,
@@ -75,10 +75,10 @@
         "draft": 0
       },
       {
-        "name": "bytedance/trae-agent",
-        "total": 2,
+        "name": "deepseek-ai/DeepInfer",
+        "total": 3,
         "merged": 0,
-        "open": 2,
+        "open": 3,
         "closed": 0,
         "draft": 0
       },
