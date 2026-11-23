@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-22T10:11:25.684Z",
+  "updatedAt": "2026-11-23T11:08:31.604Z",
   "prs": {
-    "total": 140,
+    "total": 141,
     "merged": 66,
-    "open": 63,
+    "open": 64,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -83,6 +83,14 @@
         "draft": 0
       },
       {
+        "name": "cloudwego/eino-ext",
+        "total": 2,
+        "merged": 0,
+        "open": 2,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "deepseek-ai/TileKernels",
         "total": 2,
         "merged": 0,
@@ -123,14 +131,6 @@
         "draft": 0
       },
       {
-        "name": "cloudwego/eino-ext",
-        "total": 1,
-        "merged": 0,
-        "open": 1,
-        "closed": 0,
-        "draft": 0
-      },
-      {
         "name": "loks666/get_jobs",
         "total": 1,
         "merged": 1,
@@ -149,9 +149,9 @@
     ]
   },
   "commits": {
-    "total": 392,
+    "total": 394,
     "year": 2026,
-    "yearTotal": 111,
+    "yearTotal": 113,
     "since": "2022-10",
     "months": [
       {
@@ -352,7 +352,7 @@
       },
       {
         "month": "2026-11",
-        "count": 40
+        "count": 42
       }
     ]
   }
