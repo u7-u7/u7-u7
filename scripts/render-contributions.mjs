@@ -1,8 +1,9 @@
 const THEMES = {
-  light: { text: '#24292f', muted: '#656d76', line: '#d8dee4', accent: '#6e5ab3', faint: '#eaeef2' },
-  dark: { text: '#e6edf3', muted: '#8b949e', line: '#30363d', accent: '#b2a1e8', faint: '#30363d' },
+  light: { background: '#fff', text: '#24292f', muted: '#656d76', line: '#d8dee4', accent: '#6e5ab3', faint: '#eaeef2' },
+  dark: { background: '#161b22', text: '#e6edf3', muted: '#8b949e', line: '#30363d', accent: '#b2a1e8', faint: '#30363d' },
 };
 
+const FONT_FAMILY = '-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif';
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[char]));
 const number = value => value.toLocaleString('en-US');
 const text = (x, y, value, size, fill, extra = '') => `<text x="${x}" y="${y}" font-size="${size}" fill="${fill}" ${extra}>${escape(value)}</text>`;
@@ -54,9 +55,45 @@ export function renderDashboard(data, theme, mobile = false) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
   <title id="title">开源贡献</title>
   <desc id="desc">${escape(summary)}。${data.commits.year} 年提交 ${data.commits.yearTotal} 次。</desc>
-  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+  <g font-family="${FONT_FAMILY}">
   ${text(mobile ? 18 : 16, 30, summary, 16, t.text, 'font-weight="600"')}
   ${line(mobile ? 18 : 16, 48, width - (mobile ? 18 : 16), 48, t.line)}
   ${content}
+  </g></svg>\n`;
+}
+
+function dailyDots(days, theme, left, right) {
+  return days.map(({ day, count }, index) => {
+    const x = left + index * (right - left) / (days.length - 1);
+    const radius = count ? Math.min(6.5, 2.7 + Math.sqrt(count)) : 1.65;
+    return `<circle cx="${x.toFixed(2)}" cy="143" r="${radius}" fill="${count ? theme.accent : theme.line}"><title>${day} · ${count} 个合并</title></circle>`;
+  }).join('\n  ');
+}
+
+export function renderMergedPullRequests(data, theme, mobile = false) {
+  const t = THEMES[theme];
+  const width = mobile ? 440 : 880;
+  const height = 183;
+  const left = 24;
+  const right = width - left;
+  const days = data.prs.recentMergedByDay;
+  const recent = days.reduce((total, day) => total + day.count, 0);
+  const summary = `公开上游 ${number(data.prs.merged)} 个 PR 已合并，近 30 天合并 ${number(recent)} 个。按北京时间统计。`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
+  <title id="title">已合并的公开 Pull Requests</title>
+  <desc id="desc">${escape(summary)}</desc>
+  <rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="16" fill="${t.background}" stroke="${t.line}"/>
+  <g font-family="${FONT_FAMILY}">
+  <path d="M25 27v4m0 4v4m8-13v3c0 3-3 4-6 4" fill="none" stroke="${t.accent}" stroke-width="1.5"/>
+  <g fill="${t.accent}"><circle cx="25" cy="25" r="2"/><circle cx="25" cy="40" r="2"/><circle cx="33" cy="25" r="2"/></g>
+  ${text(44, 37, 'MERGED PULL REQUESTS', 12, t.accent, 'font-weight="700" letter-spacing="1.2"')}
+  ${text(right, 37, `@${data.login}`, 12, t.muted, 'text-anchor="end"')}
+  ${line(left, 51, right, 51, t.line)}
+  <text x="${left}" y="111" fill="${t.text}" font-weight="700"><tspan font-size="49">${number(data.prs.merged)}</tspan><tspan dx="10" font-size="17">个 PR 已合并</tspan></text>
+  ${text(right, 77, '近 30 天', 12, t.muted, 'text-anchor="end"')}
+  ${text(right, 109, `+${number(recent)}`, 26, t.accent, 'text-anchor="end" font-weight="700"')}
+  ${dailyDots(days, t, left + 6, right - 6)}
+  ${text(left, 168, days[0].day.slice(5), 11, t.muted)}
+  ${text(right, 168, days.at(-1).day.slice(5), 11, t.muted, 'text-anchor="end"')}
   </g></svg>\n`;
 }

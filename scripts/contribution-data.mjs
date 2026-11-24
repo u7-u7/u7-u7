@@ -1,4 +1,11 @@
 const API = 'https://api.github.com';
+const DAY_MS = 24 * 60 * 60 * 1000;
+const CHINA_OFFSET_MS = 8 * 60 * 60 * 1000;
+const MERGE_WINDOW_DAYS = 30;
+
+function chinaDate(timestamp) {
+  return new Date(timestamp + CHINA_OFFSET_MS).toISOString().slice(0, 10);
+}
 
 export async function github(path, body) {
   const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
@@ -21,7 +28,7 @@ export async function github(path, body) {
   return result;
 }
 
-export async function collectPullRequests(login) {
+export async function collectPullRequests(login, now = new Date()) {
   const query = `is:pr author:${login} is:public -user:${login}`;
   const items = new Map();
   let expected = 0;
@@ -39,27 +46,37 @@ export async function collectPullRequests(login) {
     if (page >= 10 && items.size < expected) throw new Error('PR pagination did not converge.');
   }
   if (items.size !== expected) throw new Error('PR search totals do not match the unique results.');
-  return summarizePullRequests([...items.values()], login);
+  return summarizePullRequests([...items.values()], login, now);
 }
 
-export function summarizePullRequests(items, login) {
+export function summarizePullRequests(items, login, now = new Date()) {
   const repositories = new Map();
+  const mergedByDay = new Map(Array.from({ length: MERGE_WINDOW_DAYS }, (_, i) => {
+    const age = MERGE_WINDOW_DAYS - 1 - i;
+    return [chinaDate(now.getTime() - age * DAY_MS), 0];
+  }));
   for (const item of items) {
     const repo = item.repository_url.replace(`${API}/repos/`, '');
     if (!item.pull_request || repo.toLowerCase().startsWith(`${login.toLowerCase()}/`)) {
       throw new Error('Unexpected item in external PR search.');
     }
     const row = repositories.get(repo) || { name: repo, total: 0, merged: 0, open: 0, closed: 0, draft: 0 };
-    const state = item.pull_request.merged_at ? 'merged' : item.state;
+    const mergedAt = item.pull_request.merged_at;
+    const state = mergedAt ? 'merged' : item.state;
     if (!['merged', 'open', 'closed'].includes(state)) throw new Error('Unknown PR state.');
     row.total++;
     row[state]++;
     if (state === 'open' && item.draft) row.draft++;
+    if (mergedAt) {
+      const day = chinaDate(Date.parse(mergedAt));
+      if (mergedByDay.has(day)) mergedByDay.set(day, mergedByDay.get(day) + 1);
+    }
     repositories.set(repo, row);
   }
   const rows = [...repositories.values()].sort((a, b) => b.total - a.total || a.name.localeCompare(b.name));
   const totals = Object.fromEntries(['total', 'merged', 'open', 'closed', 'draft'].map(key => [key, rows.reduce((n, r) => n + r[key], 0)]));
-  return { ...totals, projects: rows.length, repositories: rows };
+  const recentMergedByDay = Array.from(mergedByDay, ([day, count]) => ({ day, count }));
+  return { ...totals, projects: rows.length, repositories: rows, recentMergedByDay };
 }
 
 function monthRanges(createdAt, now) {

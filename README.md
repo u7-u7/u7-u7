@@ -24,6 +24,15 @@
 
 ### 🧩 相信真正有价值的代码，应当能被别人用起来、维护下去
 
+<a href="https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Au7-u7+-user%3Au7-u7&amp;type=pullrequests">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contributions/merged-prs-dark-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/contributions/merged-prs-light-mobile.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/merged-prs-dark.svg" />
+    <img width="100%" src="./assets/contributions/merged-prs-light.svg" alt="公开上游已合并 PR 总数及近 30 天每日合并分布，点击查看明细" />
+  </picture>
+</a>
+
 ## 🚀 Featured Projects
 
 <table>
