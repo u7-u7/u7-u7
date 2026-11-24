@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-23T11:08:31.604Z",
+  "updatedAt": "2026-11-24T07:02:22.812Z",
   "prs": {
-    "total": 141,
-    "merged": 66,
-    "open": 64,
+    "total": 143,
+    "merged": 67,
+    "open": 65,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -37,16 +37,24 @@
       {
         "name": "Tencent/BrowserSkill",
         "total": 9,
-        "merged": 5,
-        "open": 2,
+        "merged": 6,
+        "open": 1,
         "closed": 2,
         "draft": 0
       },
       {
         "name": "modelscope/ms-agent",
-        "total": 7,
+        "total": 8,
         "merged": 0,
-        "open": 7,
+        "open": 8,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "bytedance/GRN",
+        "total": 4,
+        "merged": 0,
+        "open": 4,
         "closed": 0,
         "draft": 0
       },
@@ -56,14 +64,6 @@
         "merged": 3,
         "open": 0,
         "closed": 1,
-        "draft": 0
-      },
-      {
-        "name": "bytedance/GRN",
-        "total": 3,
-        "merged": 0,
-        "open": 3,
-        "closed": 0,
         "draft": 0
       },
       {
@@ -146,12 +146,134 @@
         "closed": 0,
         "draft": 0
       }
+    ],
+    "recentMergedByDay": [
+      {
+        "day": "2026-10-26",
+        "count": 3
+      },
+      {
+        "day": "2026-10-27",
+        "count": 1
+      },
+      {
+        "day": "2026-10-28",
+        "count": 6
+      },
+      {
+        "day": "2026-10-29",
+        "count": 0
+      },
+      {
+        "day": "2026-10-30",
+        "count": 1
+      },
+      {
+        "day": "2026-10-31",
+        "count": 0
+      },
+      {
+        "day": "2026-11-01",
+        "count": 0
+      },
+      {
+        "day": "2026-11-02",
+        "count": 1
+      },
+      {
+        "day": "2026-11-03",
+        "count": 0
+      },
+      {
+        "day": "2026-11-04",
+        "count": 0
+      },
+      {
+        "day": "2026-11-05",
+        "count": 1
+      },
+      {
+        "day": "2026-11-06",
+        "count": 0
+      },
+      {
+        "day": "2026-11-07",
+        "count": 0
+      },
+      {
+        "day": "2026-11-08",
+        "count": 0
+      },
+      {
+        "day": "2026-11-09",
+        "count": 7
+      },
+      {
+        "day": "2026-11-10",
+        "count": 5
+      },
+      {
+        "day": "2026-11-11",
+        "count": 0
+      },
+      {
+        "day": "2026-11-12",
+        "count": 7
+      },
+      {
+        "day": "2026-11-13",
+        "count": 0
+      },
+      {
+        "day": "2026-11-14",
+        "count": 0
+      },
+      {
+        "day": "2026-11-15",
+        "count": 0
+      },
+      {
+        "day": "2026-11-16",
+        "count": 10
+      },
+      {
+        "day": "2026-11-17",
+        "count": 0
+      },
+      {
+        "day": "2026-11-18",
+        "count": 0
+      },
+      {
+        "day": "2026-11-19",
+        "count": 0
+      },
+      {
+        "day": "2026-11-20",
+        "count": 0
+      },
+      {
+        "day": "2026-11-21",
+        "count": 0
+      },
+      {
+        "day": "2026-11-22",
+        "count": 0
+      },
+      {
+        "day": "2026-11-23",
+        "count": 0
+      },
+      {
+        "day": "2026-11-24",
+        "count": 1
+      }
     ]
   },
   "commits": {
-    "total": 394,
+    "total": 397,
     "year": 2026,
-    "yearTotal": 113,
+    "yearTotal": 116,
     "since": "2022-10",
     "months": [
       {
@@ -348,11 +470,11 @@
       },
       {
         "month": "2026-10",
-        "count": 36
+        "count": 38
       },
       {
         "month": "2026-11",
-        "count": 42
+        "count": 43
       }
     ]
   }
