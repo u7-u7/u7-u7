@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-24T07:02:22.812Z",
+  "updatedAt": "2026-11-24T12:51:54.952Z",
   "prs": {
-    "total": 143,
+    "total": 145,
     "merged": 67,
-    "open": 65,
+    "open": 67,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -52,6 +52,14 @@
       },
       {
         "name": "bytedance/GRN",
+        "total": 5,
+        "merged": 0,
+        "open": 5,
+        "closed": 0,
+        "draft": 0
+      },
+      {
+        "name": "bytedance/trae-agent",
         "total": 4,
         "merged": 0,
         "open": 4,
@@ -64,14 +72,6 @@
         "merged": 3,
         "open": 0,
         "closed": 1,
-        "draft": 0
-      },
-      {
-        "name": "bytedance/trae-agent",
-        "total": 3,
-        "merged": 0,
-        "open": 3,
-        "closed": 0,
         "draft": 0
       },
       {
