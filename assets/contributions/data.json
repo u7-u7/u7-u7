@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-24T12:51:54.952Z",
+  "updatedAt": "2026-11-25T11:38:51.393Z",
   "prs": {
-    "total": 145,
+    "total": 148,
     "merged": 67,
-    "open": 67,
+    "open": 70,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -35,6 +35,14 @@
         "draft": 0
       },
       {
+        "name": "modelscope/ms-agent",
+        "total": 9,
+        "merged": 0,
+        "open": 9,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "Tencent/BrowserSkill",
         "total": 9,
         "merged": 6,
@@ -43,26 +51,18 @@
         "draft": 0
       },
       {
-        "name": "modelscope/ms-agent",
-        "total": 8,
-        "merged": 0,
-        "open": 8,
-        "closed": 0,
-        "draft": 0
-      },
-      {
         "name": "bytedance/GRN",
-        "total": 5,
+        "total": 6,
         "merged": 0,
-        "open": 5,
+        "open": 6,
         "closed": 0,
         "draft": 0
       },
       {
         "name": "bytedance/trae-agent",
-        "total": 4,
+        "total": 5,
         "merged": 0,
-        "open": 4,
+        "open": 5,
         "closed": 0,
         "draft": 0
       },
@@ -148,10 +148,6 @@
       }
     ],
     "recentMergedByDay": [
-      {
-        "day": "2026-10-26",
-        "count": 3
-      },
       {
         "day": "2026-10-27",
         "count": 1
@@ -267,6 +263,10 @@
       {
         "day": "2026-11-24",
         "count": 1
+      },
+      {
+        "day": "2026-11-25",
+        "count": 0
       }
     ]
   },
