@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-25T11:38:51.393Z",
+  "updatedAt": "2026-11-26T11:25:10.859Z",
   "prs": {
-    "total": 148,
-    "merged": 67,
-    "open": 70,
+    "total": 156,
+    "merged": 76,
+    "open": 69,
     "closed": 11,
     "draft": 0,
     "projects": 17,
@@ -20,10 +20,18 @@
       },
       {
         "name": "Tencent/WeKnora",
-        "total": 40,
-        "merged": 24,
-        "open": 14,
+        "total": 42,
+        "merged": 33,
+        "open": 7,
         "closed": 2,
+        "draft": 0
+      },
+      {
+        "name": "modelscope/ms-agent",
+        "total": 12,
+        "merged": 0,
+        "open": 12,
+        "closed": 0,
         "draft": 0
       },
       {
@@ -31,14 +39,6 @@
         "total": 11,
         "merged": 0,
         "open": 11,
-        "closed": 0,
-        "draft": 0
-      },
-      {
-        "name": "modelscope/ms-agent",
-        "total": 9,
-        "merged": 0,
-        "open": 9,
         "closed": 0,
         "draft": 0
       },
@@ -52,9 +52,9 @@
       },
       {
         "name": "bytedance/GRN",
-        "total": 6,
+        "total": 8,
         "merged": 0,
-        "open": 6,
+        "open": 8,
         "closed": 0,
         "draft": 0
       },
@@ -107,6 +107,14 @@
         "draft": 0
       },
       {
+        "name": "MoonshotAI/FlashKDA",
+        "total": 2,
+        "merged": 1,
+        "open": 1,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "MoonshotAI/MoonEP",
         "total": 2,
         "merged": 0,
@@ -137,21 +145,9 @@
         "open": 0,
         "closed": 0,
         "draft": 0
-      },
-      {
-        "name": "MoonshotAI/FlashKDA",
-        "total": 1,
-        "merged": 1,
-        "open": 0,
-        "closed": 0,
-        "draft": 0
       }
     ],
     "recentMergedByDay": [
-      {
-        "day": "2026-10-27",
-        "count": 1
-      },
       {
         "day": "2026-10-28",
         "count": 6
@@ -267,13 +263,17 @@
       {
         "day": "2026-11-25",
         "count": 0
+      },
+      {
+        "day": "2026-11-26",
+        "count": 9
       }
     ]
   },
   "commits": {
-    "total": 397,
+    "total": 408,
     "year": 2026,
-    "yearTotal": 116,
+    "yearTotal": 127,
     "since": "2022-10",
     "months": [
       {
@@ -474,7 +474,7 @@
       },
       {
         "month": "2026-11",
-        "count": 43
+        "count": 54
       }
     ]
   }
