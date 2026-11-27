@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "login": "u7-u7",
-  "updatedAt": "2026-11-26T11:25:10.859Z",
+  "updatedAt": "2026-11-27T11:19:47.634Z",
   "prs": {
-    "total": 156,
-    "merged": 76,
-    "open": 69,
-    "closed": 11,
+    "total": 160,
+    "merged": 78,
+    "open": 70,
+    "closed": 12,
     "draft": 0,
     "projects": 17,
     "repositories": [
@@ -20,17 +20,17 @@
       },
       {
         "name": "Tencent/WeKnora",
-        "total": 42,
-        "merged": 33,
-        "open": 7,
-        "closed": 2,
+        "total": 43,
+        "merged": 35,
+        "open": 5,
+        "closed": 3,
         "draft": 0
       },
       {
         "name": "modelscope/ms-agent",
-        "total": 12,
+        "total": 14,
         "merged": 0,
-        "open": 12,
+        "open": 14,
         "closed": 0,
         "draft": 0
       },
@@ -43,19 +43,19 @@
         "draft": 0
       },
       {
+        "name": "bytedance/GRN",
+        "total": 9,
+        "merged": 0,
+        "open": 9,
+        "closed": 0,
+        "draft": 0
+      },
+      {
         "name": "Tencent/BrowserSkill",
         "total": 9,
         "merged": 6,
         "open": 1,
         "closed": 2,
-        "draft": 0
-      },
-      {
-        "name": "bytedance/GRN",
-        "total": 8,
-        "merged": 0,
-        "open": 8,
-        "closed": 0,
         "draft": 0
       },
       {
@@ -148,10 +148,6 @@
       }
     ],
     "recentMergedByDay": [
-      {
-        "day": "2026-10-28",
-        "count": 6
-      },
       {
         "day": "2026-10-29",
         "count": 0
@@ -267,13 +263,17 @@
       {
         "day": "2026-11-26",
         "count": 9
+      },
+      {
+        "day": "2026-11-27",
+        "count": 2
       }
     ]
   },
   "commits": {
-    "total": 408,
+    "total": 410,
     "year": 2026,
-    "yearTotal": 127,
+    "yearTotal": 129,
     "since": "2022-10",
     "months": [
       {
@@ -474,7 +474,7 @@
       },
       {
         "month": "2026-11",
-        "count": 54
+        "count": 56
       }
     ]
   }
